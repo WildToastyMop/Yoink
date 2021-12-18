@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "yoink",
+  "version": "${version}",
+
+  "name": "Yoink",
+  "description": "A mod to download other mods from a config file",
+  "authors": [
+    "WildToastyMop"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/WildToastyMop/Yoink"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/yoink/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.toastymop.yoink.client.Main"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

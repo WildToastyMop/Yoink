@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.toastymop.yoink.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "me.toastymop.yoink.mixin.ExampleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
